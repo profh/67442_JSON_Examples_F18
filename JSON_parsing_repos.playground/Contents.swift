@@ -58,11 +58,4 @@ if let owner_login = swiftyjson["items"][0]["owner"]["login"].string {
 
 print("\n---------\n")
 // A simple looping in-class exercise
-
-var owner_logins = [String]()
-for i in 0..<5 {
-  if let owner_login = swiftyjson["items"][i]["owner"]["login"].string {
-    owner_logins.append(owner_login)
-  }
-}
-print(owner_logins)
+// Print out the owner login of the first five repo owners
