@@ -14,7 +14,7 @@ var results = [(key: AnyObject, value: AnyObject)]()
   // line "Temp is: \(whatever_value_from_forecast_json)"
   // when you parse the temp part of the forecast.
 
-
+  // be sure to uncomment the full do-catch block ;)
 
 
 
